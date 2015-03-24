@@ -19,11 +19,13 @@ Went into the uncompressed Netatalk-3.1.7 directory and ran "dh_make -f ../netat
 In "debian/control" I added all the required packages, from the previous link, at both the places that read "dependencies". Each package is seperated by comma space.
 >http://netatalk.sourceforge.net/wiki/index.php/Install_Netatalk_3.1.7_on_Ubuntu_14.10_Utopic
 
-In Netatalk-3.1.7 I ran "debuild". Once it was done I used "lesspipe" on the newly created Netatalk-3.1.7-1_amd64.deb and made sure that a lot of files came out. (Because when I had previously been doing this only a couple of files came out, which essentially meant that I had failed)
+In Netatalk-3.1.7 I ran "debuild". Once it was done I used "lesspipe" on the newly created Netatalk-3.1.7-1_amd64.deb and made sure that a lot of files showed. (Because when I had previously been doing this only a couple of files showed, which essentially meant that I had failed)
 
 By following these instructions you should now have a functional Netatalk-3.1.7 .deb-package that, if you follow the instructions at the end of this README, should install a functional Netatalk 3.1.7 on your Debian Wheezy 7.8 server.
 
-NOTE: I got the start-script from first installing Netatalk by following the instructions in the first link and then editing it so that it points at /usr/share/sbin and /usr/share/bin instead of /usr/local/share/sbin & bin.
+NOTE: I got the start-script by first installing Netatalk by following the instructions in the previously mentioned link and then editing it so that it points at /usr/sbin/netatalk and /usr/bin/netatalk instead of /usr/local/sbin/netatalk & bin/netatalk at all places except the DIST-var.
+>http://netatalk.sourceforge.net/wiki/index.php/Install_Netatalk_3.1.7_on_Ubuntu_14.10_Utopic
+
 It's the best I could do, and it certainly works, so I'm happy.
 
 ###########################
