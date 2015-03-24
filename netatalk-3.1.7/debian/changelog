@@ -1,0 +1,5 @@
+netatalk (3.1.7-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- root <root@debian>  Tue, 24 Mar 2015 15:35:47 +0100

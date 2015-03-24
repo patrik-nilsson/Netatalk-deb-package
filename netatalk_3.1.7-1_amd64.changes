@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 24 Mar 2015 15:35:47 +0100
+Source: netatalk
+Binary: netatalk
+Architecture: source amd64
+Version: 3.1.7-1
+Distribution: unstable
+Urgency: low
+Maintainer: root <root@debian>
+Changed-By: root <root@debian>
+Description: 
+ netatalk   - <insert up to 60 chars description>
+Changes: 
+ netatalk (3.1.7-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1: 
+ 5bc055276809f119c234531071f2a7caf369f162 1156 netatalk_3.1.7-1.dsc
+ ede53e75b448e0ed3fcf51d081497b81f9a54a0c 2444693 netatalk_3.1.7.orig.tar.gz
+ 68bbd90161f24b8683a4b0ec0f4b541330b43662 11108 netatalk_3.1.7-1.debian.tar.gz
+ da8b5765abd5302d6b8b65e5660e032a1c00691b 1048594 netatalk_3.1.7-1_amd64.deb
+Checksums-Sha256: 
+ 755978e695aa5dae9c958ef1f11809a905183af88a6ff13b1e1ad9752f47d91b 1156 netatalk_3.1.7-1.dsc
+ 66fa444cdaad1749795d443414fa2e803ee61663ae780814ed9bfd8c55916fa2 2444693 netatalk_3.1.7.orig.tar.gz
+ 610757aea305289e4afe1b117824a066dc808cd64b313dc7bdb6b751728ea9fe 11108 netatalk_3.1.7-1.debian.tar.gz
+ 5514a38161ee92911e654f5de131001088adac277c54046197dbdcf40971d9eb 1048594 netatalk_3.1.7-1_amd64.deb
+Files: 
+ 96c774a62e1e3579081d158516a50699 1156 unknown extra netatalk_3.1.7-1.dsc
+ d70ede01ac2411f9eac378096143b130 2444693 unknown extra netatalk_3.1.7.orig.tar.gz
+ 7b95522a6ccadd69e9cd8e16e00f81db 11108 unknown extra netatalk_3.1.7-1.debian.tar.gz
+ 7af969d6163755312239c1f5937a3bf0 1048594 unknown extra netatalk_3.1.7-1_amd64.deb

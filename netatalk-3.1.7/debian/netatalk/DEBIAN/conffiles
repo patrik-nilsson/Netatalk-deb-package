@@ -1,0 +1,5 @@
+/etc/extmap.conf
+/etc/pam.d/netatalk
+/etc/dbus-1/system.d/netatalk-dbus.conf
+/etc/afp.conf
+/etc/dbus-session.conf
