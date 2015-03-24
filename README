@@ -1,0 +1,41 @@
+Author: Patrik Nilsson
+
+The files in this repository are the files created when creating a .deb-package from the source files of Netatalk 3.1.7 for Debian Wheezy 7.8.
+Go to the bottom of the README to see how to install Netatalk with these files.
+
+_How I got these results_
+Downloaded Netatalk.tar.gz from 
+http://sourceforge.net/projects/netatalk/files/netatalk/3.1.7/netatalk-3.1.7.tar.gz
+
+Uncompressed netatalk-3.1.7.tar.gz with "tar xvf" NOTE: DON'T remove the tar afterwards, we're gonna need it.
+
+Downloaded all required packages according to this link. NOTE: I got libtracker-sparql-0.14-dev and libtracker-miner-0.14-dev.
+http://netatalk.sourceforge.net/wiki/index.php/Install_Netatalk_3.1.7_on_Ubuntu_14.10_Utopic
+
+Downloaded dh-make, autotools-dev and devscripts (for debuild)
+
+Went into the uncompressed Netatalk-3.1.7 directory and ran "dh_make -f ../netatalk-3.1.7.tar.gz"
+
+In "debian/control" I added all the required packages, from the previous link, at both the places that read "dependencies". Each package is seperated by comma space.
+>http://netatalk.sourceforge.net/wiki/index.php/Install_Netatalk_3.1.7_on_Ubuntu_14.10_Utopic
+
+In Netatalk-3.1.7 I ran "debuild". Once it was done I used "lesspipe" on the newly created Netatalk-3.1.7-1_amd64.deb and made sure that a lot of files came out. (Because when I had previously been doing this only a couple of files came out, which essentially meant that I had failed)
+
+By following these instructions you should now have a functional Netatalk-3.1.7 .deb-package that, if you follow the instructions at the end of this README, should install a functional Netatalk 3.1.7 on your Debian Wheezy 7.8 server.
+
+NOTE: I got the start-script from first installing Netatalk by following the instructions in the first link and then editing it so that it points at /usr/share/sbin and /usr/share/bin instead of /usr/local/share/sbin & bin.
+It's the best I could do, and it certainly works, so I'm happy.
+
+###########################
+#                         #
+# HOW TO INSTALL NETATALK #
+#                         #
+###########################
+  RUN "dpkg -i netatalk_3.1.7-1_amd64.deb"
+  MOVE netatalk.start TO /etc/init.d/netatalk
+  CHANGE /etc/afp.conf.dpkg-new TO /etc/afp.conf
+  EDIT /etc/afp.conf
+  RUN "/etc/init.d/netatalk restart"
+  DONE
+
+EOF
