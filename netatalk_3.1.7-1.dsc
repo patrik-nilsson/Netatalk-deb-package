@@ -11,10 +11,10 @@ Package-List:
  netatalk deb unknown extra
 Checksums-Sha1: 
  ede53e75b448e0ed3fcf51d081497b81f9a54a0c 2444693 netatalk_3.1.7.orig.tar.gz
- 68bbd90161f24b8683a4b0ec0f4b541330b43662 11108 netatalk_3.1.7-1.debian.tar.gz
+ c4981f4ef4b422fd1d9d18c2c804c96c7d6df4ae 11120 netatalk_3.1.7-1.debian.tar.gz
 Checksums-Sha256: 
  66fa444cdaad1749795d443414fa2e803ee61663ae780814ed9bfd8c55916fa2 2444693 netatalk_3.1.7.orig.tar.gz
- 610757aea305289e4afe1b117824a066dc808cd64b313dc7bdb6b751728ea9fe 11108 netatalk_3.1.7-1.debian.tar.gz
+ c430e1da40da685ad16c252fc5b515570e0f466de86b227a4510bfb33e95117b 11120 netatalk_3.1.7-1.debian.tar.gz
 Files: 
  d70ede01ac2411f9eac378096143b130 2444693 netatalk_3.1.7.orig.tar.gz
- 7b95522a6ccadd69e9cd8e16e00f81db 11108 netatalk_3.1.7-1.debian.tar.gz
+ 9e1304c8fde5aacebc209c676d87519b 11120 netatalk_3.1.7-1.debian.tar.gz

@@ -363,7 +363,7 @@ configure:12144: $? = 0
 configure:12161: result: none required
 configure:12169: checking for library containing clock_gettime
 configure:12200: gcc -o conftest -g -O2 -Wall -fno-strict-aliasing   conftest.c  >&5
-/tmp/ccKPsrSV.o: In function `main':
+/tmp/ccPCgpuZ.o: In function `main':
 /root/netatalk-3.1.7/libevent/conftest.c:35: undefined reference to `clock_gettime'
 collect2: error: ld returned 1 exit status
 configure:12200: $? = 1
@@ -511,7 +511,7 @@ configure:12336: checking for zlib.h
 configure:12336: result: yes
 configure:12352: checking for library containing inflateEnd
 configure:12383: gcc -o conftest -g -O2 -Wall -fno-strict-aliasing   conftest.c  >&5
-/tmp/ccrrvkKc.o: In function `main':
+/tmp/ccPSpBkc.o: In function `main':
 /root/netatalk-3.1.7/libevent/conftest.c:36: undefined reference to `inflateEnd'
 collect2: error: ld returned 1 exit status
 configure:12383: $? = 1
@@ -570,7 +570,7 @@ configure:12437: checking for openssl/bio.h
 configure:12437: result: yes
 configure:12453: checking for library containing SSL_new
 configure:12484: gcc -o conftest -g -O2 -Wall -fno-strict-aliasing   conftest.c  >&5
-/tmp/ccI4WWQp.o: In function `main':
+/tmp/ccEhsGJn.o: In function `main':
 /root/netatalk-3.1.7/libevent/conftest.c:38: undefined reference to `SSL_new'
 collect2: error: ld returned 1 exit status
 configure:12484: $? = 1
@@ -1498,7 +1498,7 @@ configure:13115: $? = 0
 configure:13115: result: yes
 configure:13115: checking for strlcpy
 configure:13115: gcc -o conftest -g -O2 -Wall -fno-strict-aliasing   conftest.c -lrt  >&5
-/tmp/ccVgejQG.o: In function `main':
+/tmp/ccZINfu9.o: In function `main':
 /root/netatalk-3.1.7/libevent/conftest.c:103: undefined reference to `strlcpy'
 collect2: error: ld returned 1 exit status
 configure:13115: $? = 1
@@ -1656,7 +1656,7 @@ configure:13115: $? = 0
 configure:13115: result: yes
 configure:13115: checking for arc4random
 configure:13115: gcc -o conftest -g -O2 -Wall -fno-strict-aliasing   conftest.c -lrt  >&5
-/tmp/ccZYTR34.o: In function `main':
+/tmp/ccor4dgA.o: In function `main':
 /root/netatalk-3.1.7/libevent/conftest.c:114: undefined reference to `arc4random'
 collect2: error: ld returned 1 exit status
 configure:13115: $? = 1
@@ -1781,7 +1781,7 @@ configure: failed program was:
 configure:13115: result: no
 configure:13115: checking for arc4random_buf
 configure:13115: gcc -o conftest -g -O2 -Wall -fno-strict-aliasing   conftest.c -lrt  >&5
-/tmp/ccgdTCJ7.o: In function `main':
+/tmp/ccOMVoLD.o: In function `main':
 /root/netatalk-3.1.7/libevent/conftest.c:114: undefined reference to `arc4random_buf'
 collect2: error: ld returned 1 exit status
 configure:13115: $? = 1
@@ -1906,7 +1906,7 @@ configure: failed program was:
 configure:13115: result: no
 configure:13115: checking for issetugid
 configure:13115: gcc -o conftest -g -O2 -Wall -fno-strict-aliasing   conftest.c -lrt  >&5
-/tmp/ccD50bMa.o: In function `main':
+/tmp/ccElz6ZF.o: In function `main':
 /root/netatalk-3.1.7/libevent/conftest.c:114: undefined reference to `issetugid'
 collect2: error: ld returned 1 exit status
 configure:13115: $? = 1
@@ -2085,7 +2085,7 @@ configure:13523: $? = 0
 configure:13523: result: yes
 configure:13607: checking for port_create
 configure:13607: gcc -o conftest -g -O2 -Wall -fno-strict-aliasing   conftest.c -lrt  >&5
-/tmp/ccu3HmHN.o: In function `main':
+/tmp/cczZddfh.o: In function `main':
 /root/netatalk-3.1.7/libevent/conftest.c:128: undefined reference to `port_create'
 collect2: error: ld returned 1 exit status
 configure:13607: $? = 1

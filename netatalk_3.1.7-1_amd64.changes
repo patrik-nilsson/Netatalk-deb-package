@@ -15,17 +15,17 @@ Changes:
  .
    * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 Checksums-Sha1: 
- 5bc055276809f119c234531071f2a7caf369f162 1156 netatalk_3.1.7-1.dsc
+ 5de0bd43340eb7e49d341d6f24e466abd6ce6618 1156 netatalk_3.1.7-1.dsc
  ede53e75b448e0ed3fcf51d081497b81f9a54a0c 2444693 netatalk_3.1.7.orig.tar.gz
- 68bbd90161f24b8683a4b0ec0f4b541330b43662 11108 netatalk_3.1.7-1.debian.tar.gz
- da8b5765abd5302d6b8b65e5660e032a1c00691b 1048594 netatalk_3.1.7-1_amd64.deb
+ c4981f4ef4b422fd1d9d18c2c804c96c7d6df4ae 11120 netatalk_3.1.7-1.debian.tar.gz
+ 2751bc6b6d340b31df54f2e06594d2cc35e98855 1048568 netatalk_3.1.7-1_amd64.deb
 Checksums-Sha256: 
- 755978e695aa5dae9c958ef1f11809a905183af88a6ff13b1e1ad9752f47d91b 1156 netatalk_3.1.7-1.dsc
+ bd69d7be5b360767ac0c66cf79e114f091f7ad6e46059d0deb1a953c4b625e4e 1156 netatalk_3.1.7-1.dsc
  66fa444cdaad1749795d443414fa2e803ee61663ae780814ed9bfd8c55916fa2 2444693 netatalk_3.1.7.orig.tar.gz
- 610757aea305289e4afe1b117824a066dc808cd64b313dc7bdb6b751728ea9fe 11108 netatalk_3.1.7-1.debian.tar.gz
- 5514a38161ee92911e654f5de131001088adac277c54046197dbdcf40971d9eb 1048594 netatalk_3.1.7-1_amd64.deb
+ c430e1da40da685ad16c252fc5b515570e0f466de86b227a4510bfb33e95117b 11120 netatalk_3.1.7-1.debian.tar.gz
+ 8131774050e22ed911c836d5d28b08c29ecd2fe4f2c04cd6dfbcc05c423b2f27 1048568 netatalk_3.1.7-1_amd64.deb
 Files: 
- 96c774a62e1e3579081d158516a50699 1156 unknown extra netatalk_3.1.7-1.dsc
+ a4a59093b643a63009b63606a28ff995 1156 unknown extra netatalk_3.1.7-1.dsc
  d70ede01ac2411f9eac378096143b130 2444693 unknown extra netatalk_3.1.7.orig.tar.gz
- 7b95522a6ccadd69e9cd8e16e00f81db 11108 unknown extra netatalk_3.1.7-1.debian.tar.gz
- 7af969d6163755312239c1f5937a3bf0 1048594 unknown extra netatalk_3.1.7-1_amd64.deb
+ 9e1304c8fde5aacebc209c676d87519b 11120 unknown extra netatalk_3.1.7-1.debian.tar.gz
+ 8635c08febbee2acb6e60594f9b18f44 1048568 unknown extra netatalk_3.1.7-1_amd64.deb

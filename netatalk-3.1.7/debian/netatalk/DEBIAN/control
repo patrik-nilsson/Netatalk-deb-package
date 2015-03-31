@@ -3,7 +3,7 @@ Version: 3.1.7-1
 Architecture: amd64
 Maintainer: root <root@debian>
 Installed-Size: 2837
-Depends: libacl1 (>= 2.2.51-8), libattr1 (>= 1:2.4.46-8), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.7), libcomerr2 (>= 1.01), libdb5.1, libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.88), libgcrypt11 (>= 1.4.5), libglib2.0-0 (>= 2.31.8), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libmysqlclient18 (>= 5.5.24+dfsg-1), libpam0g (>= 0.99.7.1), libssl1.0.0 (>= 1.0.0), libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4), libevent-dev, libssl-dev, libgcrypt11-dev, libkrb5-dev, libpam0g-dev, libwrap0-dev, libdb-dev, libtdb-dev, libmysqlclient-dev, libavahi-client-dev, libacl1-dev, libldap2-dev, libcrack2-dev, systemtap-sdt-dev, libdbus-1-dev, libdbus-glib-1-dev, libglib2.0-dev, tracker, libtracker-sparql-0.14-dev, libtracker-miner-0.14-devs
+Depends: libacl1 (>= 2.2.51-8), libattr1 (>= 1:2.4.46-8), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.7), libcomerr2 (>= 1.01), libdb5.1, libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.88), libgcrypt11 (>= 1.4.5), libglib2.0-0 (>= 2.31.8), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libmysqlclient18 (>= 5.5.24+dfsg-1), libpam0g (>= 0.99.7.1), libssl1.0.0 (>= 1.0.0), libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4), libevent-dev, libssl-dev, libgcrypt11-dev, libkrb5-dev, libpam0g-dev, libwrap0-dev, libdb-dev, libtdb-dev, libmysqlclient-dev, libavahi-client-dev, libacl1-dev, libldap2-dev, libcrack2-dev, systemtap-sdt-dev, libdbus-1-dev, libdbus-glib-1-dev, libglib2.0-dev, tracker, libtracker-sparql-0.14-dev, libtracker-miner-0.14-dev
 Section: unknown
 Priority: extra
 Homepage: <insert the upstream URL, if relevant>

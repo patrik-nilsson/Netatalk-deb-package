@@ -494,7 +494,7 @@ configure:11419: checking how to hardcode library paths into programs
 configure:11444: result: immediate
 configure:11538: checking for shl_load
 configure:11538: gcc -std=gnu99 -o conftest -g -O2   conftest.c  >&5
-/tmp/ccAmJ4Ae.o: In function `main':
+/tmp/cc0yoOhW.o: In function `main':
 /root/netatalk-3.1.7/conftest.c:57: undefined reference to `shl_load'
 collect2: error: ld returned 1 exit status
 configure:11538: $? = 1
@@ -606,7 +606,7 @@ configure: failed program was:
 configure:11576: result: no
 configure:11581: checking for dlopen
 configure:11581: gcc -std=gnu99 -o conftest -g -O2   conftest.c  >&5
-/tmp/ccQfKMhl.o: In function `main':
+/tmp/cc9LPpg0.o: In function `main':
 /root/netatalk-3.1.7/conftest.c:57: undefined reference to `dlopen'
 collect2: error: ld returned 1 exit status
 configure:11581: $? = 1
@@ -682,7 +682,7 @@ configure:11821: $? = 0
 configure:11839: result: yes
 configure:11844: checking whether a statically linked program can dlopen itself
 configure:11924: gcc -std=gnu99 -o conftest -g -O2  -DHAVE_DLFCN_H  -Wl,--export-dynamic -static conftest.c -ldl  >&5
-/tmp/ccjcwfir.o: In function `main':
+/tmp/ccBIrXP7.o: In function `main':
 /root/netatalk-3.1.7/configure:11903: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
 /usr/bin/ld: dynamic STT_GNU_IFUNC symbol `strcmp' with pointer equality in `/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/libc.a(strcmp.o)' can not be used when making an executable; recompile with -fPIE and relink with -pie
 collect2: error: ld returned 1 exit status
@@ -1321,7 +1321,7 @@ configure:13039: checking if large file support is available
 configure:13045: result: yes
 configure:13068: checking for library containing dlopen
 configure:13099: gcc -std=gnu99 -o conftest -D_U_="__attribute__((unused))" -g -O2   conftest.c  >&5
-/tmp/ccsxjUC2.o: In function `main':
+/tmp/cciDFLUh.o: In function `main':
 /root/netatalk-3.1.7/conftest.c:51: undefined reference to `dlopen'
 collect2: error: ld returned 1 exit status
 configure:13099: $? = 1
@@ -1520,7 +1520,7 @@ configure:13609: $? = 0
 configure:13609: result: yes
 configure:13609: checking for strlcat
 configure:13609: gcc -std=gnu99 -o conftest -D_U_="__attribute__((unused))" -g -O2   conftest.c -ldl  >&5
-/tmp/ccuKqjEC.o: In function `main':
+/tmp/cciAEKHW.o: In function `main':
 /root/netatalk-3.1.7/conftest.c:93: undefined reference to `strlcat'
 collect2: error: ld returned 1 exit status
 configure:13609: $? = 1
@@ -1624,7 +1624,7 @@ configure: failed program was:
 configure:13609: result: no
 configure:13609: checking for strlcpy
 configure:13609: gcc -std=gnu99 -o conftest -D_U_="__attribute__((unused))" -g -O2   conftest.c -ldl  >&5
-/tmp/ccrgrPWE.o: In function `main':
+/tmp/cckLbSYY.o: In function `main':
 /root/netatalk-3.1.7/conftest.c:93: undefined reference to `strlcpy'
 collect2: error: ld returned 1 exit status
 configure:13609: $? = 1
@@ -1857,7 +1857,7 @@ configure: failed program was:
 configure:13968: result: no
 configure:13866: checking whether pthreads work without any flags
 configure:13959: gcc -std=gnu99 -o conftest -D_U_="__attribute__((unused))" -g -O2    conftest.c  -ldl  >&5
-/tmp/ccx4Snv7.o: In function `main':
+/tmp/ccm9uLOs.o: In function `main':
 /root/netatalk-3.1.7/conftest.c:74: undefined reference to `pthread_create'
 /root/netatalk-3.1.7/conftest.c:75: undefined reference to `pthread_join'
 /root/netatalk-3.1.7/conftest.c:77: undefined reference to `__pthread_register_cancel'
@@ -3843,7 +3843,7 @@ configure:17989: checking for acl_get_perm_np
 configure:18015: gcc -std=gnu99 -o conftest -D_U_="__attribute__((unused))" -g -O2   conftest.c -ldl   -lacl -lattr >&5
 conftest.c: In function 'main':
 conftest.c:121:5: warning: implicit declaration of function 'acl_get_perm_np' [-Wimplicit-function-declaration]
-/tmp/ccjRwV97.o: In function `main':
+/tmp/ccDoqOlI.o: In function `main':
 /root/netatalk-3.1.7/conftest.c:121: undefined reference to `acl_get_perm_np'
 collect2: error: ld returned 1 exit status
 configure:18015: $? = 1

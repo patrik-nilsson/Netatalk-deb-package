@@ -9,11 +9,741 @@ dpkg-buildpackage: host architecture amd64
 dh clean  --with autotools-dev
    dh_testdir
    dh_auto_clean
+make[1]: Entering directory `/root/netatalk-3.1.7'
+Making distclean in include
+make[2]: Entering directory `/root/netatalk-3.1.7/include'
+Making distclean in atalk
+make[3]: Entering directory `/root/netatalk-3.1.7/include/atalk'
+test -z "afp_dtrace.h" || rm -f afp_dtrace.h
+rm -rf .libs _libs
+rm -f *.lo
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/include/atalk'
+make[3]: Entering directory `/root/netatalk-3.1.7/include'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+make[3]: Leaving directory `/root/netatalk-3.1.7/include'
+rm -f Makefile
+make[2]: Leaving directory `/root/netatalk-3.1.7/include'
+Making distclean in libatalk
+make[2]: Entering directory `/root/netatalk-3.1.7/libatalk'
+Making distclean in acl
+make[3]: Entering directory `/root/netatalk-3.1.7/libatalk/acl'
+rm -rf .libs _libs
+test -z "libacl.la" || rm -f libacl.la
+rm -f ./so_locations
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -rf ./.deps
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/libatalk/acl'
+Making distclean in adouble
+make[3]: Entering directory `/root/netatalk-3.1.7/libatalk/adouble'
+rm -rf .libs _libs
+test -z "libadouble.la" || rm -f libadouble.la
+rm -f ./so_locations
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -rf ./.deps
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/libatalk/adouble'
+Making distclean in bstring
+make[3]: Entering directory `/root/netatalk-3.1.7/libatalk/bstring'
+rm -rf .libs _libs
+test -z "libbstring.la" || rm -f libbstring.la
+rm -f ./so_locations
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -rf ./.deps
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/libatalk/bstring'
+Making distclean in compat
+make[3]: Entering directory `/root/netatalk-3.1.7/libatalk/compat'
+rm -rf .libs _libs
+test -z "libcompat.la" || rm -f libcompat.la
+rm -f ./so_locations
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -rf ./.deps
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/libatalk/compat'
+Making distclean in cnid
+make[3]: Entering directory `/root/netatalk-3.1.7/libatalk/cnid'
+Making distclean in last
+make[4]: Entering directory `/root/netatalk-3.1.7/libatalk/cnid/last'
+rm -rf .libs _libs
+test -z "libcnid_last.la" || rm -f libcnid_last.la
+rm -f ./so_locations
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -rf ./.deps
+rm -f Makefile
+make[4]: Leaving directory `/root/netatalk-3.1.7/libatalk/cnid/last'
+Making distclean in cdb
+make[4]: Entering directory `/root/netatalk-3.1.7/libatalk/cnid/cdb'
+rm -rf .libs _libs
+test -z "" || rm -f 
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -rf ./.deps
+rm -f Makefile
+make[4]: Leaving directory `/root/netatalk-3.1.7/libatalk/cnid/cdb'
+Making distclean in dbd
+make[4]: Entering directory `/root/netatalk-3.1.7/libatalk/cnid/dbd'
+rm -rf .libs _libs
+test -z "libcnid_dbd.la" || rm -f libcnid_dbd.la
+rm -f ./so_locations
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -rf ./.deps
+rm -f Makefile
+make[4]: Leaving directory `/root/netatalk-3.1.7/libatalk/cnid/dbd'
+Making distclean in tdb
+make[4]: Entering directory `/root/netatalk-3.1.7/libatalk/cnid/tdb'
+rm -rf .libs _libs
+test -z "libcnid_tdb.la" || rm -f libcnid_tdb.la
+rm -f ./so_locations
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -rf ./.deps
+rm -f Makefile
+make[4]: Leaving directory `/root/netatalk-3.1.7/libatalk/cnid/tdb'
+Making distclean in mysql
+make[4]: Entering directory `/root/netatalk-3.1.7/libatalk/cnid/mysql'
+rm -rf .libs _libs
+test -z "libcnid_mysql.la" || rm -f libcnid_mysql.la
+rm -f ./so_locations
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -rf ./.deps
+rm -f Makefile
+make[4]: Leaving directory `/root/netatalk-3.1.7/libatalk/cnid/mysql'
+make[4]: Entering directory `/root/netatalk-3.1.7/libatalk/cnid'
+rm -rf .libs _libs
+test -z "libcnid.la" || rm -f libcnid.la
+rm -f ./so_locations
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+make[4]: Leaving directory `/root/netatalk-3.1.7/libatalk/cnid'
+rm -rf ./.deps
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/libatalk/cnid'
+Making distclean in dsi
+make[3]: Entering directory `/root/netatalk-3.1.7/libatalk/dsi'
+rm -rf .libs _libs
+test -z "libdsi.la" || rm -f libdsi.la
+rm -f ./so_locations
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -rf ./.deps
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/libatalk/dsi'
+Making distclean in iniparser
+make[3]: Entering directory `/root/netatalk-3.1.7/libatalk/iniparser'
+rm -rf .libs _libs
+test -z "libiniparser.la" || rm -f libiniparser.la
+rm -f ./so_locations
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -rf ./.deps
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/libatalk/iniparser'
+Making distclean in talloc
+make[3]: Entering directory `/root/netatalk-3.1.7/libatalk/talloc'
+rm -rf .libs _libs
+test -z "libtalloc.la" || rm -f libtalloc.la
+rm -f ./so_locations
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -rf ./.deps
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/libatalk/talloc'
+Making distclean in util
+make[3]: Entering directory `/root/netatalk-3.1.7/libatalk/util'
+rm -rf .libs _libs
+test -z "libutil.la" || rm -f libutil.la
+rm -f ./so_locations
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -rf ./.deps
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/libatalk/util'
+Making distclean in unicode
+make[3]: Entering directory `/root/netatalk-3.1.7/libatalk/unicode'
+Making distclean in charsets
+make[4]: Entering directory `/root/netatalk-3.1.7/libatalk/unicode/charsets'
+rm -rf .libs _libs
+test -z "libcharsets.la" || rm -f libcharsets.la
+rm -f ./so_locations
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -rf ./.deps
+rm -f Makefile
+make[4]: Leaving directory `/root/netatalk-3.1.7/libatalk/unicode/charsets'
+make[4]: Entering directory `/root/netatalk-3.1.7/libatalk/unicode'
+rm -rf .libs _libs
+test -z "libunicode.la" || rm -f libunicode.la
+rm -f ./so_locations
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+make[4]: Leaving directory `/root/netatalk-3.1.7/libatalk/unicode'
+rm -rf ./.deps
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/libatalk/unicode'
+Making distclean in vfs
+make[3]: Entering directory `/root/netatalk-3.1.7/libatalk/vfs'
+rm -rf .libs _libs
+test -z "libvfs.la" || rm -f libvfs.la
+rm -f ./so_locations
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -rf ./.deps
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/libatalk/vfs'
+Making distclean in tdb
+make[3]: Entering directory `/root/netatalk-3.1.7/libatalk/tdb'
+rm -rf .libs _libs
+test -z "libtdb.la" || rm -f libtdb.la
+rm -f ./so_locations
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -rf ./.deps
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/libatalk/tdb'
+make[3]: Entering directory `/root/netatalk-3.1.7/libatalk'
+test -z "libatalk.la" || rm -f libatalk.la
+rm -f ./so_locations
+rm -rf .libs _libs
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+make[3]: Leaving directory `/root/netatalk-3.1.7/libatalk'
+rm -rf ./.deps
+rm -f Makefile
+make[2]: Leaving directory `/root/netatalk-3.1.7/libatalk'
+Making distclean in bin
+make[2]: Entering directory `/root/netatalk-3.1.7/bin'
+Making distclean in afppasswd
+make[3]: Entering directory `/root/netatalk-3.1.7/bin/afppasswd'
+ rm -f afppasswd
+rm -rf .libs _libs
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -rf ./.deps
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/bin/afppasswd'
+Making distclean in cnid
+make[3]: Entering directory `/root/netatalk-3.1.7/bin/cnid'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "cnid2_create" || rm -f cnid2_create
+test . = "." || test -z "" || rm -f 
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/bin/cnid'
+Making distclean in megatron
+make[3]: Entering directory `/root/netatalk-3.1.7/bin/megatron'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/bin/megatron'
+Making distclean in misc
+make[3]: Entering directory `/root/netatalk-3.1.7/bin/misc'
+ rm -f afpldaptest
+rm -rf .libs _libs
+ rm -f netacnv logger_test fce
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -rf ./.deps
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/bin/misc'
+Making distclean in ad
+make[3]: Entering directory `/root/netatalk-3.1.7/bin/ad'
+ rm -f ad
+rm -rf .libs _libs
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -rf ./.deps
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/bin/ad'
+make[3]: Entering directory `/root/netatalk-3.1.7/bin'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+make[3]: Leaving directory `/root/netatalk-3.1.7/bin'
+rm -f Makefile
+make[2]: Leaving directory `/root/netatalk-3.1.7/bin'
+Making distclean in config
+make[2]: Entering directory `/root/netatalk-3.1.7/config'
+Making distclean in pam
+make[3]: Entering directory `/root/netatalk-3.1.7/config/pam'
+test -z "netatalk" || rm -f netatalk
+rm -rf .libs _libs
+rm -f *.lo
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/config/pam'
+make[3]: Entering directory `/root/netatalk-3.1.7/config'
+test -z "afp.conf dbus-session.conf" || rm -f afp.conf dbus-session.conf
+rm -rf .libs _libs
+rm -f *.lo
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+make[3]: Leaving directory `/root/netatalk-3.1.7/config'
+rm -f Makefile
+make[2]: Leaving directory `/root/netatalk-3.1.7/config'
+Making distclean in etc
+make[2]: Entering directory `/root/netatalk-3.1.7/etc'
+Making distclean in spotlight
+make[3]: Entering directory `/root/netatalk-3.1.7/etc/spotlight'
+rm -rf .libs _libs
+test -z "" || rm -f 
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -rf ./.deps
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/etc/spotlight'
+Making distclean in afpd
+make[3]: Entering directory `/root/netatalk-3.1.7/etc/afpd'
+test -z "afp_dtrace.o" || rm -f afp_dtrace.o
+rm -rf .libs _libs
+ rm -f afpd
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+test -z "afpstats_service_glue.h" || rm -f afpstats_service_glue.h
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -rf ./.deps
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/etc/afpd'
+Making distclean in cnid_dbd
+make[3]: Entering directory `/root/netatalk-3.1.7/etc/cnid_dbd'
+ rm -f dbd
+rm -rf .libs _libs
+ rm -f cnid_dbd cnid_metad
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -rf ./.deps
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/etc/cnid_dbd'
+Making distclean in netatalk
+make[3]: Entering directory `/root/netatalk-3.1.7/etc/netatalk'
+rm -rf .libs _libs
+ rm -f netatalk
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -rf ./.deps
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/etc/netatalk'
+Making distclean in uams
+make[3]: Entering directory `/root/netatalk-3.1.7/etc/uams'
+rm -rf .libs _libs
+test -z "uams_guest.la uams_passwd.la  uams_pam.la uams_randnum.la uams_dhx_passwd.la uams_dhx_pam.la uams_dhx2_passwd.la uams_dhx2_pam.la " || rm -f uams_guest.la uams_passwd.la  uams_pam.la uams_randnum.la uams_dhx_passwd.la uams_dhx_pam.la uams_dhx2_passwd.la uams_dhx2_pam.la 
+rm -f ./so_locations
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -rf ./.deps
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/etc/uams'
+make[3]: Entering directory `/root/netatalk-3.1.7/etc'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+make[3]: Leaving directory `/root/netatalk-3.1.7/etc'
+rm -f Makefile
+make[2]: Leaving directory `/root/netatalk-3.1.7/etc'
+Making distclean in contrib
+make[2]: Entering directory `/root/netatalk-3.1.7/contrib'
+Making distclean in macusers
+make[3]: Entering directory `/root/netatalk-3.1.7/contrib/macusers'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "macusers" || rm -f macusers
+test . = "." || test -z "" || rm -f 
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/contrib/macusers'
+Making distclean in shell_utils
+make[3]: Entering directory `/root/netatalk-3.1.7/contrib/shell_utils'
+test -z "" || rm -f 
+rm -rf .libs _libs
+rm -f *.lo
+test -z "apple_dump asip-status.pl" || rm -f apple_dump asip-status.pl
+test . = "." || test -z "" || rm -f 
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/contrib/shell_utils'
+make[3]: Entering directory `/root/netatalk-3.1.7/contrib'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+make[3]: Leaving directory `/root/netatalk-3.1.7/contrib'
+rm -f Makefile
+make[2]: Leaving directory `/root/netatalk-3.1.7/contrib'
+Making distclean in distrib
+make[2]: Entering directory `/root/netatalk-3.1.7/distrib'
+Making distclean in config
+make[3]: Entering directory `/root/netatalk-3.1.7/distrib/config'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "netatalk-config" || rm -f netatalk-config
+test . = "." || test -z "" || rm -f 
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/distrib/config'
+Making distclean in initscripts
+make[3]: Entering directory `/root/netatalk-3.1.7/distrib/initscripts'
+test -z "rc.bsd rc.debian rc.gentoo rc.netbsd rc.redhat rc.solaris rc.suse service.systemd netatalk.xml   afpd cnid_metad" || rm -f rc.bsd rc.debian rc.gentoo rc.netbsd rc.redhat rc.solaris rc.suse service.systemd netatalk.xml   afpd cnid_metad
+rm -rf .libs _libs
+rm -f *.lo
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/distrib/initscripts'
+Making distclean in m4
+make[3]: Entering directory `/root/netatalk-3.1.7/distrib/m4'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/distrib/m4'
+make[3]: Entering directory `/root/netatalk-3.1.7/distrib'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+make[3]: Leaving directory `/root/netatalk-3.1.7/distrib'
+rm -f Makefile
+make[2]: Leaving directory `/root/netatalk-3.1.7/distrib'
+Making distclean in doc
+make[2]: Entering directory `/root/netatalk-3.1.7/doc'
+Making distclean in manpages
+make[3]: Entering directory `/root/netatalk-3.1.7/doc/manpages'
+Making distclean in man1
+make[4]: Entering directory `/root/netatalk-3.1.7/doc/manpages/man1'
+test -z "" || rm -f 
+rm -rf .libs _libs
+rm -f *.lo
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f Makefile
+make[4]: Leaving directory `/root/netatalk-3.1.7/doc/manpages/man1'
+Making distclean in man5
+make[4]: Entering directory `/root/netatalk-3.1.7/doc/manpages/man5'
+test -z "" || rm -f 
+rm -rf .libs _libs
+rm -f *.lo
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f Makefile
+make[4]: Leaving directory `/root/netatalk-3.1.7/doc/manpages/man5'
+Making distclean in man8
+make[4]: Entering directory `/root/netatalk-3.1.7/doc/manpages/man8'
+test -z "" || rm -f 
+rm -rf .libs _libs
+rm -f *.lo
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f Makefile
+make[4]: Leaving directory `/root/netatalk-3.1.7/doc/manpages/man8'
+make[4]: Entering directory `/root/netatalk-3.1.7/doc/manpages'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+make[4]: Leaving directory `/root/netatalk-3.1.7/doc/manpages'
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/doc/manpages'
+Making distclean in manual
+make[3]: Entering directory `/root/netatalk-3.1.7/doc/manual'
+test -z "" || rm -f 
+rm -rf .libs _libs
+rm -f *.lo
+test -z "manual.xml" || rm -f manual.xml
+test . = "." || test -z "" || rm -f 
+test -z "manual.xml" || rm -f manual.xml
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/doc/manual'
+make[3]: Entering directory `/root/netatalk-3.1.7/doc'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "html.xsl man.xsl" || rm -f html.xsl man.xsl
+test . = "." || test -z "" || rm -f 
+test -z "html.xsl man.xsl" || rm -f html.xsl man.xsl
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+make[3]: Leaving directory `/root/netatalk-3.1.7/doc'
+rm -f Makefile
+make[2]: Leaving directory `/root/netatalk-3.1.7/doc'
+Making distclean in man
+make[2]: Entering directory `/root/netatalk-3.1.7/man'
+Making distclean in man1
+make[3]: Entering directory `/root/netatalk-3.1.7/man/man1'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "ad.1 afpldaptest.1 afppasswd.1 afpstats.1 apple_dump.1 asip-status.pl.1 dbd.1 macusers.1 netatalk-config.1 uniconv.1" || rm -f ad.1 afpldaptest.1 afppasswd.1 afpstats.1 apple_dump.1 asip-status.pl.1 dbd.1 macusers.1 netatalk-config.1 uniconv.1
+test . = "." || test -z "" || rm -f 
+test -z "ad.1 afpldaptest.1 afppasswd.1 afpstats.1 apple_dump.1 asip-status.pl.1 dbd.1 macusers.1 netatalk-config.1 uniconv.1" || rm -f ad.1 afpldaptest.1 afppasswd.1 afpstats.1 apple_dump.1 asip-status.pl.1 dbd.1 macusers.1 netatalk-config.1 uniconv.1
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/man/man1'
+Making distclean in man5
+make[3]: Entering directory `/root/netatalk-3.1.7/man/man5'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "afp.conf.5 afp_signature.conf.5 afp_voluuid.conf.5 extmap.conf.5" || rm -f afp.conf.5 afp_signature.conf.5 afp_voluuid.conf.5 extmap.conf.5
+test . = "." || test -z "" || rm -f 
+test -z "afp.conf.5 afp_signature.conf.5 afp_voluuid.conf.5 extmap.conf.5" || rm -f afp.conf.5 afp_signature.conf.5 afp_voluuid.conf.5 extmap.conf.5
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/man/man5'
+Making distclean in man8
+make[3]: Entering directory `/root/netatalk-3.1.7/man/man8'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "afpd.8 cnid_dbd.8 cnid_metad.8 netatalk.8" || rm -f afpd.8 cnid_dbd.8 cnid_metad.8 netatalk.8
+test . = "." || test -z "" || rm -f 
+test -z "afpd.8 cnid_dbd.8 cnid_metad.8 netatalk.8" || rm -f afpd.8 cnid_dbd.8 cnid_metad.8 netatalk.8
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/man/man8'
+make[3]: Entering directory `/root/netatalk-3.1.7/man'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+make[3]: Leaving directory `/root/netatalk-3.1.7/man'
+rm -f Makefile
+make[2]: Leaving directory `/root/netatalk-3.1.7/man'
+Making distclean in macros
+make[2]: Entering directory `/root/netatalk-3.1.7/macros'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f Makefile
+make[2]: Leaving directory `/root/netatalk-3.1.7/macros'
+Making distclean in test
+make[2]: Entering directory `/root/netatalk-3.1.7/test'
+Making distclean in afpd
+make[3]: Entering directory `/root/netatalk-3.1.7/test/afpd'
+ rm -f test
+test -z "test.default test.conf afp_dtrace.o" || rm -f test.default test.conf afp_dtrace.o
+rm -rf .libs _libs
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -rf ./.deps
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/test/afpd'
+make[3]: Entering directory `/root/netatalk-3.1.7/test'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+make[3]: Leaving directory `/root/netatalk-3.1.7/test'
+rm -f Makefile
+make[2]: Leaving directory `/root/netatalk-3.1.7/test'
+Making distclean in libevent
+make[2]: Entering directory `/root/netatalk-3.1.7/libevent'
+Making distclean in .
+make[3]: Entering directory `/root/netatalk-3.1.7/libevent'
+test -z "libevent.la libevent_core.la libevent_extra.la libevent_pthreads.la libevent_openssl.la" || rm -f libevent.la libevent_core.la libevent_extra.la libevent_pthreads.la libevent_openssl.la
+rm -f ./so_locations
+rm -rf .libs _libs
+test -z "" || rm -f 
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "libevent.pc libevent_openssl.pc libevent_pthreads.pc" || rm -f libevent.pc libevent_openssl.pc libevent_pthreads.pc
+test . = "." || test -z "" || rm -f 
+test -z "*~ ./include/event2/event-config.h" || rm -f *~ ./include/event2/event-config.h
+rm -f config.h stamp-h1
+rm -f libtool config.lt
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f cscope.out cscope.in.out cscope.po.out cscope.files
+make[3]: Leaving directory `/root/netatalk-3.1.7/libevent'
+Making distclean in include
+make[3]: Entering directory `/root/netatalk-3.1.7/libevent/include'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/libevent/include'
+Making distclean in sample
+make[3]: Entering directory `/root/netatalk-3.1.7/libevent/sample'
+rm -rf .libs _libs
+ rm -f event-test time-test signal-test dns-example hello-world http-server le-proxy
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+test -z "*~" || rm -f *~
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/libevent/sample'
+Making distclean in test
+make[3]: Entering directory `/root/netatalk-3.1.7/libevent/test'
+test -z "rpcgen-attempted" || rm -f rpcgen-attempted
+rm -rf .libs _libs
+ rm -f test-init test-eof test-weof test-time bench bench_cascade bench_http bench_httpclient test-ratelim test-changelist regress
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+test -z "*~" || rm -f *~
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -rf ./.deps
+rm -f Makefile
+make[3]: Leaving directory `/root/netatalk-3.1.7/libevent/test'
+rm -f config.status config.cache config.log configure.lineno config.status.lineno
+rm -rf .deps ./.deps
+rm -f Makefile
+make[2]: Leaving directory `/root/netatalk-3.1.7/libevent'
+make[2]: Entering directory `/root/netatalk-3.1.7'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f config.h stamp-h1
+rm -f libtool config.lt
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f cscope.out cscope.in.out cscope.po.out cscope.files
+make[2]: Leaving directory `/root/netatalk-3.1.7'
+rm -f config.status config.cache config.log configure.lineno config.status.lineno
+rm -f Makefile
+make[1]: Leaving directory `/root/netatalk-3.1.7'
    dh_autotools-dev_restoreconfig
    dh_clean
  dpkg-source -b netatalk-3.1.7
 dpkg-source: info: using source format `3.0 (quilt)'
 dpkg-source: info: building netatalk using existing ./netatalk_3.1.7.orig.tar.gz
+dpkg-source: warning: ignoring deletion of file etc/afpd/afpstats_service_glue.h
 dpkg-source: info: building netatalk in netatalk_3.1.7-1.debian.tar.gz
 dpkg-source: info: building netatalk in netatalk_3.1.7-1.dsc
  debian/rules build
@@ -1226,6 +1956,12 @@ make[5]: Leaving directory `/root/netatalk-3.1.7/etc/spotlight'
 make[4]: Leaving directory `/root/netatalk-3.1.7/etc/spotlight'
 Making all in afpd
 make[4]: Entering directory `/root/netatalk-3.1.7/etc/afpd'
+/bin/bash ../../libtool --mode=execute \
+		dbus-binding-tool \
+			--prefix=afpstats_obj \
+			--mode=glib-server \
+			--output=afpstats_service_glue.h \
+			../../etc/afpd/afpstats-service.xml
 make  all-am
 make[5]: Entering directory `/root/netatalk-3.1.7/etc/afpd'
   CC       afpd-afp_config.o
@@ -1482,6 +2218,7 @@ make  check-recursive
 make[3]: Entering directory `/root/netatalk-3.1.7/libevent'
 Making check in .
 make[4]: Entering directory `/root/netatalk-3.1.7/libevent'
+make[4]: Nothing to be done for `check-am'.
 make[4]: Leaving directory `/root/netatalk-3.1.7/libevent'
 Making check in include
 make[4]: Entering directory `/root/netatalk-3.1.7/libevent/include'
@@ -2013,7 +2750,6 @@ make[3]: Entering directory `/root/netatalk-3.1.7/bin/afppasswd'
 make[4]: Entering directory `/root/netatalk-3.1.7/bin/afppasswd'
  /bin/mkdir -p '/root/netatalk-3.1.7/debian/netatalk/usr/bin'
   /bin/bash ../../libtool   --mode=install /usr/bin/install -c afppasswd '/root/netatalk-3.1.7/debian/netatalk/usr/bin'
-libtool: install: warning: `../../libatalk/libatalk.la' has not been installed in `/usr/lib'
 libtool: install: /usr/bin/install -c .libs/afppasswd /root/netatalk-3.1.7/debian/netatalk/usr/bin/afppasswd
 make  install-exec-hook
 make[5]: Entering directory `/root/netatalk-3.1.7/bin/afppasswd'
@@ -2042,7 +2778,6 @@ make[3]: Entering directory `/root/netatalk-3.1.7/bin/misc'
 make[4]: Entering directory `/root/netatalk-3.1.7/bin/misc'
  /bin/mkdir -p '/root/netatalk-3.1.7/debian/netatalk/usr/bin'
   /bin/bash ../../libtool   --mode=install /usr/bin/install -c afpldaptest '/root/netatalk-3.1.7/debian/netatalk/usr/bin'
-libtool: install: warning: `../../libatalk/libatalk.la' has not been installed in `/usr/lib'
 libtool: install: /usr/bin/install -c .libs/afpldaptest /root/netatalk-3.1.7/debian/netatalk/usr/bin/afpldaptest
 make[4]: Nothing to be done for `install-data-am'.
 make[4]: Leaving directory `/root/netatalk-3.1.7/bin/misc'
@@ -2052,7 +2787,6 @@ make[3]: Entering directory `/root/netatalk-3.1.7/bin/ad'
 make[4]: Entering directory `/root/netatalk-3.1.7/bin/ad'
  /bin/mkdir -p '/root/netatalk-3.1.7/debian/netatalk/usr/bin'
   /bin/bash ../../libtool   --mode=install /usr/bin/install -c ad '/root/netatalk-3.1.7/debian/netatalk/usr/bin'
-libtool: install: warning: `../../libatalk/libatalk.la' has not been installed in `/usr/lib'
 libtool: install: /usr/bin/install -c .libs/ad /root/netatalk-3.1.7/debian/netatalk/usr/bin/ad
 make[4]: Nothing to be done for `install-data-am'.
 make[4]: Leaving directory `/root/netatalk-3.1.7/bin/ad'
@@ -2121,7 +2855,6 @@ make[4]: Entering directory `/root/netatalk-3.1.7/etc/afpd'
 make[5]: Entering directory `/root/netatalk-3.1.7/etc/afpd'
  /bin/mkdir -p '/root/netatalk-3.1.7/debian/netatalk/usr/sbin'
   /bin/bash ../../libtool   --mode=install /usr/bin/install -c afpd '/root/netatalk-3.1.7/debian/netatalk/usr/sbin'
-libtool: install: warning: `../../libatalk/libatalk.la' has not been installed in `/usr/lib'
 libtool: install: /usr/bin/install -c .libs/afpd /root/netatalk-3.1.7/debian/netatalk/usr/sbin/afpd
 make[5]: Nothing to be done for `install-data-am'.
 make[5]: Leaving directory `/root/netatalk-3.1.7/etc/afpd'
@@ -2132,13 +2865,10 @@ make[3]: Entering directory `/root/netatalk-3.1.7/etc/cnid_dbd'
 make[4]: Entering directory `/root/netatalk-3.1.7/etc/cnid_dbd'
  /bin/mkdir -p '/root/netatalk-3.1.7/debian/netatalk/usr/bin'
   /bin/bash ../../libtool   --mode=install /usr/bin/install -c dbd '/root/netatalk-3.1.7/debian/netatalk/usr/bin'
-libtool: install: warning: `../../libatalk/libatalk.la' has not been installed in `/usr/lib'
 libtool: install: /usr/bin/install -c .libs/dbd /root/netatalk-3.1.7/debian/netatalk/usr/bin/dbd
  /bin/mkdir -p '/root/netatalk-3.1.7/debian/netatalk/usr/sbin'
   /bin/bash ../../libtool   --mode=install /usr/bin/install -c cnid_dbd cnid_metad '/root/netatalk-3.1.7/debian/netatalk/usr/sbin'
-libtool: install: warning: `../../libatalk/libatalk.la' has not been installed in `/usr/lib'
 libtool: install: /usr/bin/install -c .libs/cnid_dbd /root/netatalk-3.1.7/debian/netatalk/usr/sbin/cnid_dbd
-libtool: install: warning: `../../libatalk/libatalk.la' has not been installed in `/usr/lib'
 libtool: install: /usr/bin/install -c .libs/cnid_metad /root/netatalk-3.1.7/debian/netatalk/usr/sbin/cnid_metad
 make[4]: Nothing to be done for `install-data-am'.
 make[4]: Leaving directory `/root/netatalk-3.1.7/etc/cnid_dbd'
@@ -2148,7 +2878,6 @@ make[3]: Entering directory `/root/netatalk-3.1.7/etc/netatalk'
 make[4]: Entering directory `/root/netatalk-3.1.7/etc/netatalk'
  /bin/mkdir -p '/root/netatalk-3.1.7/debian/netatalk/usr/sbin'
   /bin/bash ../../libtool   --mode=install /usr/bin/install -c netatalk '/root/netatalk-3.1.7/debian/netatalk/usr/sbin'
-libtool: install: warning: `../../libatalk/libatalk.la' has not been installed in `/usr/lib'
 libtool: install: /usr/bin/install -c .libs/netatalk /root/netatalk-3.1.7/debian/netatalk/usr/sbin/netatalk
 make[4]: Nothing to be done for `install-data-am'.
 make[4]: Leaving directory `/root/netatalk-3.1.7/etc/netatalk'
@@ -2455,7 +3184,6 @@ dpkg-shlibdeps: warning: package could avoid a useless dependency if debian/neta
 dpkg-shlibdeps: warning: package could avoid a useless dependency if debian/netatalk/usr/sbin/afpd was not linked against libkrb5.so.3 (it uses none of the library's symbols)
    dh_installdeb
    dh_gencontrol
-dpkg-gencontrol: warning: Depends field of package netatalk: unknown substitution variable ${misc:Depend}
 dpkg-gencontrol: warning: package netatalk: unused substitution variable ${perl:Depends}
 dpkg-gencontrol: warning: package netatalk: unused substitution variable ${python:Depends}
    dh_md5sums
@@ -2468,7 +3196,6 @@ dpkg-buildpackage: full upload (original source is included)
 Now running lintian...
 warning: the authors of lintian do not recommend running it with root privileges!
 E: netatalk changes: changed-by-address-malformed root <root@debian>
-W: netatalk source: debhelper-but-no-misc-depends netatalk
 W: netatalk source: dh-make-template-in-source debian/emacsen-install.ex
 W: netatalk source: dh-make-template-in-source debian/emacsen-remove.ex
 W: netatalk source: dh-make-template-in-source debian/emacsen-startup.ex
@@ -2550,11 +3277,6 @@ W: netatalk: non-dev-pkg-with-shlib-symlink usr/lib/libatalk.so.16.0.0 usr/lib/l
 Finished running lintian.
 Now signing changes and any dsc files...
  signfile netatalk_3.1.7-1.dsc root <root@debian>
-gpg: directory `/root/.gnupg' created
-gpg: new configuration file `/root/.gnupg/gpg.conf' created
-gpg: WARNING: options in `/root/.gnupg/gpg.conf' are not yet active during this run
-gpg: keyring `/root/.gnupg/secring.gpg' created
-gpg: keyring `/root/.gnupg/pubring.gpg' created
 gpg: skipped "root <root@debian>": secret key not available
-gpg: /tmp/debsign.IxJ7okYW/netatalk_3.1.7-1.dsc: clearsign failed: secret key not available
+gpg: /tmp/debsign.7OxVQqYD/netatalk_3.1.7-1.dsc: clearsign failed: secret key not available
 debsign: gpg error occurred!  Aborting....
