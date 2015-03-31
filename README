@@ -39,5 +39,30 @@ It's the best I could do, and it certainly works, so I'm happy.
   EDIT /etc/afp.conf
   RUN "/etc/init.d/netatalk restart"
   DONE
+  
+###########################
+#                         #
+#    HOW TO ADD SHARES    #
+# (HOW TO EDIT AFP.CONF)  #
+###########################  
+  Standard afp.conf
+  	[Global]
+	
+	[Homes]
+		basedir regex = /home
+
+	[Shared]
+		path = /share/share
+For more options, visit 
+http://netatalk.sourceforge.net/3.1/htmldocs/afp.conf.5.html
+
+###########################
+#                         #
+#    HOW TO ADD USERS     #
+#                         #
+###########################  
+Unlike Samba, users for Netatalk are connected directly to the users local on the server.
+For example, you can run:
+# adduser Username
 
 EOF
